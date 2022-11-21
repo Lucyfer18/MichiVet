@@ -1,0 +1,342 @@
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* estilos header */
+
+
+.barra{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    
+}
+@media(min-width: 768px){
+    .barra{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+
+
+    
+
+
+
+header nav ul {
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    
+    
+    
+    
+}
+
+header nav ul li{
+    background-color: violet;
+    display: inline-block;
+    padding: 8px;
+    margin: 5px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header a:hover{
+    color: yellowgreen;
+}
+
+
+header nav ul li a{
+    text-decoration: none;
+}
+      
+    
+
+.vet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 1000px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("/img/gato-veterinaria.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+
+/*styles del main*/
+
+
+
+
+
+
+.articulo{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+    margin: 25px;
+    padding: 25px;
+}
+
+
+.felino h2, .carta h2, .nosotros h2, .etapas h2, .medicina h2 {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.felino p{
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    
+}
+
+
+/*main index*/
+
+.felino{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+.art p{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+
+
+
+
+
+
+/*main pag "Nostros"*/
+
+.nosotros, .medicina p{
+    text-align: center;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 16px;
+}
+
+.nosotros .img-container{
+    text-align: center;
+}
+
+.etapas{
+    margin: 20px;
+    padding: 20px;
+}
+
+/*MEDICINA GRAL*/
+
+.medicina-img{
+    text-align: center;
+}
+
+/*MAIN TURNOS*/
+
+.turno-cont{
+    text-align: center;
+    background-color: whitesmoke; 
+    margin: 10px;
+    padding: 20px;
+}
+
+#turnos {
+    font-size: 40px;
+    display: inline-block;
+    background-color: aquamarine;
+    margin: 20px;
+    
+}
+
+.turnos p, h2, h3, h4 {
+    text-align: start;
+    font-size: 18px;
+}
+
+#mapa{
+    margin: 20px;
+    text-align: center;
+}
+
+    
+
+
+
+
+
+
+
+
+/* styles de contacto*/
+
+.container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.logo {
+    text-align: center;
+    font-size: 3em;
+}
+
+.logo span {
+    color: #B70E21;
+}
+
+.contact-wrapper {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
+
+.contact-wrapper > * {
+    padding: 1em;
+}
+
+.contact-form {
+    background-color: black;
+}
+
+.contact-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form label {
+    display: block;
+}
+
+.contact-form form p {
+    margin: 0;
+    padding: 1em;
+}
+
+.contact-form form .block {
+    grid-column: 1 / 3;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: #fff;
+    border-bottom: 1px solid #d63031;
+    
+}
+
+.contact-form{
+    color: whitesmoke;
+}
+
+.contact-form form button {
+    background: #B70E21;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+
+
+/* Info de contacto */
+.contact-info {
+    background: aquamarine;
+}
+
+.contact-info h4, .contact-info ul, .contact-info p {
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+/* Largo */
+@media(min-width: 700px) {
+    body {
+        padding: 0 4em;
+    }
+    .contact-wrapper {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .contact-wrapper > * {
+        padding: 2em;
+    }
+   
+}
+
+
+
+
+
+
+
+
+
+
+/*styles del footer*/
+
+
+.copyright{
+    margin: 10px;
+   
+}
+    
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+    
+
+
+
+
+    
