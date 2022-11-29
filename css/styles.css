@@ -89,11 +89,12 @@ header nav ul li a{
 
 .articulo{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
     margin: 25px;
     padding: 25px;
+    grid-area: "articulo";
 }
+    
 
 
 .felino h2, .carta h2, .nosotros h2, .etapas h2, .medicina h2 {
@@ -117,13 +118,25 @@ header nav ul li a{
     flex-direction: column;
     align-items: center;
     background-color: aquamarine;
+    grid-area: "felino";
 }
+@media(min-width: 768px){
+    .articulo{
+        font-size: 5px;
+    }
+}
+
+  
+    
+
 
 .art p{
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
     
 }
+
+
 
 
 
