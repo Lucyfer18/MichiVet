@@ -1,0 +1,15 @@
+//mixin con parametros
+
+@mixin medidas ($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+}
+
+@mixin estilosBotones{
+    background-color: #51B0DF;
+    color: whitesmoke;
+    padding: 0.7rem;
+    box-shadow: 1px 1px 5px black;
+    text-shadow: 1px 1px 5px black;
+    align-items: center;
+}

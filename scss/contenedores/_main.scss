@@ -1,0 +1,15 @@
+/*estilos main*/
+
+main{
+    img{
+        @include medidas (90%, auto)
+    }
+    .button{
+        @include estilosBotones
+
+    }
+}
+
+section{
+    @extend %estilosRepetidos;
+}
